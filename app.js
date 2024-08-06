@@ -21,7 +21,7 @@ document.addEventListener("alpine:init", () => {
     logos: [
       {
         id: 1,
-        src: "./assets/logos/ohio_state.svg",
+        src: "./assets/logos/osu.svg",
         alt: "ohio state",
       },
       {
