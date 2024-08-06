@@ -1,7 +1,7 @@
 // Wait for alpine to be instantiated before processing
 document.addEventListener("alpine:init", () => {
   Alpine.data("portfolio", () => ({
-    title: "Hunter Trammell",
+    title: "Lance Borden",
     projects: [
       {
         id: 1,
@@ -21,34 +21,24 @@ document.addEventListener("alpine:init", () => {
     logos: [
       {
         id: 1,
-        src: "./assets/logos/walmart.svg",
-        alt: "walmart",
+        src: "./assets/logos/ohio_state.svg",
+        alt: "ohio state",
       },
       {
         id: 2,
-        src: "./assets/logos/jp-morgan.svg",
-        alt: "jp-morgan",
+        src: "./assets/logos/enable.svg",
+        alt: "enable injections",
       },
       {
         id: 3,
-        src: "./assets/logos/visa.svg",
-        alt: "visa",
+        src: "./assets/logos/first.svg",
+        alt: "first robotics competition",
       },
       {
         id: 4,
-        src: "./assets/logos/tinder.svg",
-        alt: "tinder",
-      },
-      {
-        id: 5,
-        src: "./assets/logos/samsung.svg",
-        alt: "samsung",
-      },
-      {
-        id: 6,
-        src: "./assets/logos/verizon.svg",
-        alt: "verizon",
-      },
+        src: "./assets/logos/nasa.svg",
+        alt: "nasa lunabotics",
+      }
     ],
     showNav: false,
     init() {
