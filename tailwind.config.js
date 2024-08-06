@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'heading': ["'Prata'", 'serif'],
-      'body': ["'Inter'", 'sans-serif']
+      'heading': ["'Ubuntu'", 'sans-serif'],
+      'body': ["'JetBrains Mono'", 'monospace']
     }
   },
   plugins: [],
