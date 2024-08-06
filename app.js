@@ -6,16 +6,16 @@ document.addEventListener("alpine:init", () => {
       {
         id: 1,
         img: "./assets/spense.png",
-        imgAlt: "spense",
-        title: "Spense.com",
-        body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint facilis vero ipsum, officia doloremque reiciendis quia provident Tenetur dolorem nisi aut iste minima non error cum quod! Totam, quisquam molestiae?",
+        imgAlt: "quake prism",
+        title: "Quake Prism",
+        body: "Quake Prism is an open source game engine editor for the Quake engine made by iD Software. This tool is an all in one suite for developers to make mods and games.",
       },
       {
         id: 2,
         img: "./assets/yelp-camp.png",
-        imgAlt: "yelp-camp",
-        title: "YelpCamp.com",
-        body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint facilis vero ipsum, officia doloremque reiciendis quia provident Tenetur dolorem nisi aut iste minima non error cum quod! Totam, quisquam molestiae?",
+        imgAlt: "linux mint xed",
+        title: "Linux Mint Xed",
+        body: "Xed is an open source text editor written in C and part of the Linux Mint xapps software suite. I have contributed to the development of this software mostly through the fixing of bugs and memory/performance issues as a way to improve at C.",
       },
     ],
     logos: [
