@@ -19,27 +19,27 @@
       <header class="max-w-4xl mx-auto py-2 lg:px-4">
         <nav class="flex justify-between items-center text-white px-4 lg:px-0">
           <h2 class="font-heading" x-text="title"></h2>
-          <button x-data="{open : false}" @click="handleNav" class="text-white w-24 h-24 relative focus:outline-none bg-black inline-block lg:hidden" @click="open = !open">
+          <button  @click="handleNav" class="text-white w-10 h-10 relative focus:outline-none bg-black inline-block lg:hidden">
             <div class="block w-5 absolute left-1/2 top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
-                <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out" :class="{'rotate-45': open,' -translate-y-1.5': !open }"></span>
-                <span aria-hidden="true" class="block absolute  h-0.5 w-5 bg-current   transform transition duration-500 ease-in-out" :class="{'opacity-0': open } "></span>
-                <span aria-hidden="true" class="block absolute  h-0.5 w-5 bg-current transform  transition duration-500 ease-in-out" :class="{'-rotate-45': open, ' translate-y-1.5': !open}"></span>
+                <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out" :class="{'rotate-45': showNav,' -translate-y-1.5': !showNav }"></span>
+                <span aria-hidden="true" class="block absolute  h-0.5 w-5 bg-current   transform transition duration-500 ease-in-out" :class="{'opacity-0': showNav } "></span>
+                <span aria-hidden="true" class="block absolute  h-0.5 w-5 bg-current transform  transition duration-500 ease-in-out" :class="{'-rotate-45': showNav, ' translate-y-1.5': !showNav}"></span>
             </div>
           </button>
-          <ul
-            id="menu"
-            :class="showNav ? '' : 'hidden'"
-            class="lg:flex lg:static absolute right-0 bg-black top-14 px-8 py-2 lg:p-0 text-gray-400"
-          >
-            <li class="px-3 cursor-pointer group"><a href="/#home">
+            <ul
+              id="menu"
+              :class="showNav ? 'flex' : 'hidden'"
+              class="text-3xl lg:text-base lg:flex lg:static fixed inset-0 bg-black lg:bg-transparent top-14 lg:top-0 px-8 py-2 lg:p-0 text-gray-400 flex-col lg:flex-row justify-center"
+            >
+            <li class="px-3 cursor-pointer group"><a @click="handleNav" href="/#home">
               Home
               <div class="bg-red-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </a></li>
-            <li class="px-3 cursor-pointer group"><a href="/#portfolio">
+            <li class="px-3 cursor-pointer group"><a @click="handleNav" href="/#portfolio">
               Portfolio
               <div class="bg-red-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </a></li>
-            <li class="px-3 cursor-pointer group"><a href="/#work">
+            <li class="px-3 cursor-pointer group"><a @click="handleNav" href="/#work">
               Work
               <div class="bg-red-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </a></li>
