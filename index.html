@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lance Borden</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="hamburgers.css">
     <script
       defer
       src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"
@@ -20,12 +19,12 @@
       <header class="max-w-4xl mx-auto py-2 lg:px-4">
         <nav class="flex justify-between items-center text-white px-4 lg:px-0">
           <h2 class="font-heading" x-text="title"></h2>
-          <button @click="handleNav" class="inline-block lg:hidden" @click="">
-            <div class="hamburger hamburger--squeeze">
-              <div class="hamburger-box">
-                <div class="hamburger-inner"></div>
-              </div>
-            </div>            
+          <button @click="handleNav" class="text-white w-10 h-10 relative focus:outline-none bg-black inline-block lg:hidden" @click="">
+            <div class="block w-5 absolute left-1/2 top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
+                <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out" :class="{'rotate-45': open,' -translate-y-1.5': !open }"></span>
+                <span aria-hidden="true" class="block absolute  h-0.5 w-5 bg-current   transform transition duration-500 ease-in-out" :class="{'opacity-0': open } "></span>
+                <span aria-hidden="true" class="block absolute  h-0.5 w-5 bg-current transform  transition duration-500 ease-in-out" :class="{'-rotate-45': open, ' translate-y-1.5': !open}"></span>
+            </div>
           </button>
           <ul
             id="menu"
