@@ -778,12 +778,12 @@ video {
   width: 100%;
 }
 
-.w-10 {
-  width: 10px;
+.w-24 {
+  width: 24px;
 }
 
-.h-10 {
-  height: 10px;
+.h-24 {
+  height: 24px;
 }
 
 @media (min-width: 1024px) {
