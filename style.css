@@ -778,6 +778,14 @@ video {
   width: 100%;
 }
 
+.w-10 {
+  width: 10px;
+}
+
+.h-10 {
+  height: 10px;
+}
+
 @media (min-width: 1024px) {
   .lg\:static {
     position: static;
