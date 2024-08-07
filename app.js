@@ -8,7 +8,7 @@ document.addEventListener("alpine:init", () => {
         img: "./assets/quakeprism.png",
         imgAlt: "quake prism",
         title: "Quake Prism",
-        body: "Quake Prism is an open source game engine editor for iD Software's Quake engine. Written entirely solo using OpenGL in C++ this tool is an all in one suite for developers to make mods and games. Featuring texture and model tools along with the first ever real time linter for the QuakeC programming language.",
+        body: "Quake Prism is an open source game engine editor for iD Software's Quake engine. Solo devloped using OpenGL and C++; this tool is an all in one suite for developers to make mods and games. Featuring texture and model tools along with the first ever real time linter for the QuakeC programming language.",
       },
       {
         id: 2,
