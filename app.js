@@ -8,6 +8,7 @@ document.addEventListener("alpine:init", () => {
         img: "./assets/quakeprism.png",
         imgAlt: "quake prism",
         title: "Quake Prism",
+        link: "https://github.com/BanceDev/QuakePrism",
         body: "Quake Prism is an open source game engine editor for iD Software's Quake engine. Solo devloped using OpenGL and C++; this tool is an all in one suite for developers to make mods and games. Featuring texture and model tools along with the first ever real time linter for the QuakeC programming language.",
       },
       {
@@ -15,6 +16,7 @@ document.addEventListener("alpine:init", () => {
         img: "./assets/xed.png",
         imgAlt: "linux mint xed",
         title: "Linux Mint Xed",
+        link: "https://github.com/linuxmint/xed",
         body: "Xed is an open source text editor written in C and part of the Linux Mint xapps software suite. Contributed to the development of this software mostly through the fixing of bugs and memory/performance issues as a way to improve at C.",
       },
       {
@@ -22,6 +24,7 @@ document.addEventListener("alpine:init", () => {
         img: "./assets/lunabotics.jpg",
         imgAlt: "lunabotics",
         title: "Lunabotics",
+        link: "https://org.osu.edu/firstrobotics/lunabotics/",
         body: "Developed the driver station and networked controls for the rookie year OSU Lunabotics robot. We received the Nova Award for Stellar Systems Engineering Performance by a First Year Team.",
       },
       {
@@ -29,6 +32,7 @@ document.addEventListener("alpine:init", () => {
         img: "./assets/landelver.png",
         imgAlt: "landelver",
         title: "LANdelver",
+        link: "https://github.com/linuxmint/xed",
         body: "LANdelver is a virtual tabletop for the in person Dungeons & Dragons expereince. Designed to enhance the possibilities of using a screen table with a fully custom Lua to C API for scripting enemy AI along with an intuitive web interface for players to connect from."
       },
     ],

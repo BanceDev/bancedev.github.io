@@ -87,7 +87,7 @@
             <div class="text-gray-400" :key="project.id">
               <img :src="project.img" :alt="project.imgAlt" />
               <h2 class="font-heading text-white text-3xl py-4">
-                <span x-text="project.title"></span> &rarr;
+                <a :href="project.link"><span x-text="project.title"></span></a> &rarr;
               </h2>
               <p x-text="project.body"></p>
             </div>
