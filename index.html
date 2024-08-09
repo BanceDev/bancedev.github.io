@@ -88,6 +88,7 @@
               <img :src="project.img" :alt="project.imgAlt" />
               <h2 class="font-heading text-white text-3xl py-4">
                 <a :href="project.link"><span x-text="project.title"></span></a> &rarr;
+                <div class="bg-red-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </h2>
               <p x-text="project.body"></p>
             </div>
