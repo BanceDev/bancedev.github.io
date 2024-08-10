@@ -32,7 +32,7 @@ document.addEventListener("alpine:init", () => {
         img: "./assets/landelver.png",
         imgAlt: "landelver",
         title: "LANdelver",
-        link: "https://github.com/linuxmint/xed",
+        link: "https://github.com/LANdelver/landelver",
         body: "LANdelver is a virtual tabletop for the in person Dungeons & Dragons expereince. Designed to enhance the possibilities of using a screen table with a fully custom Lua to C API for scripting enemy AI along with an intuitive web interface for players to connect from."
       },
     ],
