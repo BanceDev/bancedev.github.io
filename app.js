@@ -35,14 +35,15 @@ document.addEventListener("alpine:init", () => {
         link: "https://github.com/LANdelver/landelver",
         body: "LANdelver is a virtual tabletop for the in person Dungeons & Dragons expereince. Designed to enhance the possibilities of using a screen table with a fully custom Lua to C API for scripting enemy AI along with an intuitive web interface for players to connect from."
       },
-      {
+      // will add back in after completion of project
+      /*{
         id: 5,
         img: "./assets/alua.png",
         imgAlt: "alua",
         title: "aLua",
         link: "https://alua.bance.dev",
         body: "aLua is a Lua inspired programming language desined to be compiled for arduino. This means that even lower spec arduino boards can take advantage of the minimalist syntax and easy to understand programming."
-      }
+      }*/
     ],
     work: [
       {
