@@ -40,7 +40,7 @@ document.addEventListener("alpine:init", () => {
         img: "./assets/alpine-pages.png",
         imgAlt: "alpine pages",
         title: "AlpineJS Pages",
-        link: "https://https://github.com/BanceDev/alpine-pages",
+        link: "https://github.com/BanceDev/alpine-pages",
         body: "AlpineJS Pages is a tiny plugin for AlpineJS designed to bring fully reactive html and scoped css into AlpineJS data objects. It effectively allows for templating without extra html files as well as a better foundation for bringing in client side SPA routing."
       }
     ],
