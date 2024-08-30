@@ -29,11 +29,11 @@ document.addEventListener("alpine:init", () => {
       },
       {
         id: 4,
-        img: "./assets/landelver.png",
-        imgAlt: "landelver",
-        title: "LANdelver",
-        link: "https://github.com/LANdelver/landelver",
-        body: "LANdelver is a virtual tabletop for the in person Dungeons & Dragons expereince. Designed to enhance the possibilities of using a screen table with a fully custom Lua to C API for scripting enemy AI along with an intuitive web interface for players to connect from."
+        img: "./assets/portal.png",
+        imgAlt: "portal",
+        title: "Portal",
+        link: "https://github.com/BanceDev/portal",
+        body: "Portal is an open source group chat application for developers and creatives. Inspired by neovim, it features a Lua scripting API so each user is able to fully customize their client to their own personal preferences.",
       },
       {
         id: 5,
@@ -42,6 +42,14 @@ document.addEventListener("alpine:init", () => {
         title: "AlpineJS Pages",
         link: "https://github.com/BanceDev/alpine-pages",
         body: "AlpineJS Pages is a tiny plugin for AlpineJS designed to bring fully reactive html and scoped css into AlpineJS data objects. It effectively allows for templating without extra html files as well as a better foundation for bringing in client side SPA routing."
+      },
+      {
+        id: 6,
+        img: "./assets/landelver.png",
+        imgAlt: "landelver",
+        title: "LANdelver",
+        link: "https://github.com/LANdelver/landelver",
+        body: "LANdelver is a virtual tabletop for the in person Dungeons & Dragons expereince. Designed to enhance the possibilities of using a screen table with a fully custom Lua to C API for scripting enemy AI along with an intuitive web interface for players to connect from."
       }
     ],
     work: [
