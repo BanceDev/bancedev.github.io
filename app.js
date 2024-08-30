@@ -27,16 +27,16 @@ document.addEventListener("alpine:init", () => {
         link: "https://org.osu.edu/firstrobotics/lunabotics/",
         body: "Developed the driver station and networked controls for the rookie year OSU Lunabotics robot. We received the Nova Award for Stellar Systems Engineering Performance by a First Year Team.",
       },
+      /*      {
+              id: 4,
+              img: "./assets/portal.png",
+              imgAlt: "portal",
+              title: "Portal",
+              link: "https://github.com/BanceDev/portal",
+              body: "Portal is an open source group chat application for developers and creatives. Inspired by neovim, it features a Lua scripting API so each user is able to fully customize their client to their own personal preferences.",
+            },*/
       {
         id: 4,
-        img: "./assets/portal.png",
-        imgAlt: "portal",
-        title: "Portal",
-        link: "https://github.com/BanceDev/portal",
-        body: "Portal is an open source group chat application for developers and creatives. Inspired by neovim, it features a Lua scripting API so each user is able to fully customize their client to their own personal preferences.",
-      },
-      {
-        id: 5,
         img: "./assets/alpine-pages.png",
         imgAlt: "alpine pages",
         title: "AlpineJS Pages",
@@ -44,7 +44,7 @@ document.addEventListener("alpine:init", () => {
         body: "AlpineJS Pages is a tiny plugin for AlpineJS designed to bring fully reactive html and scoped css into AlpineJS data objects. It effectively allows for templating without extra html files as well as a better foundation for bringing in client side SPA routing."
       },
       {
-        id: 6,
+        id: 5,
         img: "./assets/landelver.png",
         imgAlt: "landelver",
         title: "LANdelver",
