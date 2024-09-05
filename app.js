@@ -9,7 +9,7 @@ document.addEventListener("alpine:init", () => {
         imgAlt: "lunar shell",
         title: "Lunar Shell",
         link: "https://github.com/BanceDev/lush",
-        body: "Lunar Shell (lush) is an open source, modern unix shell that is able to be customized and create shell scripts entirely in Lua. The shell and Lua API is written entirely from scratch in C, making the shell extremely lightweight, performant, and customizable.",
+        body: "Lunar Shell (lush) is an open-source, modern Unix shell built from scratch in C. It offers a lightweight, high-performance experience, allowing users to fully customize their shell environment and write shell scripts using Lua through an intuitive and efficient API.",
       },
       {
         id: 2,
