@@ -5,6 +5,14 @@ document.addEventListener("alpine:init", () => {
     projects: [
       {
         id: 1,
+        img: "./assets/lush.png",
+        imgAlt: "lunar shell",
+        title: "Lunar Shell",
+        link: "https://github.com/BanceDev/lush",
+        body: "Lunar Shell (lush) is an open source, modern unix shell that is able to be customized and create shell scripts entirely in Lua. The shell and Lua API is written entirely from scratch in C, making the shell extremely lightweight, performant, and customizable.",
+      },
+      {
+        id: 2,
         img: "./assets/quakeprism.png",
         imgAlt: "quake prism",
         title: "Quake Prism",
@@ -12,7 +20,7 @@ document.addEventListener("alpine:init", () => {
         body: "Quake Prism is an open source game engine editor for iD Software's Quake engine. Solo devloped using OpenGL and C++; this tool is an all in one suite for developers to make mods and games. Featuring texture and model tools along with the first ever real time linter for the QuakeC programming language.",
       },
       {
-        id: 2,
+        id: 3,
         img: "./assets/xed.png",
         imgAlt: "linux mint xed",
         title: "Linux Mint Xed",
@@ -20,23 +28,15 @@ document.addEventListener("alpine:init", () => {
         body: "Xed is an open source text editor written in C and part of the Linux Mint xapps software suite. Contributed to the development of this software mostly through the fixing of bugs and memory/performance issues as a way to improve at C.",
       },
       {
-        id: 3,
+        id: 4,
         img: "./assets/lunabotics.jpg",
         imgAlt: "lunabotics",
         title: "Lunabotics",
         link: "https://org.osu.edu/firstrobotics/lunabotics/",
         body: "Developed the driver station and networked controls for the rookie year OSU Lunabotics robot. We received the Nova Award for Stellar Systems Engineering Performance by a First Year Team.",
       },
-      /*      {
-              id: 4,
-              img: "./assets/portal.png",
-              imgAlt: "portal",
-              title: "Portal",
-              link: "https://github.com/BanceDev/portal",
-              body: "Portal is an open source group chat application for developers and creatives. Inspired by neovim, it features a Lua scripting API so each user is able to fully customize their client to their own personal preferences.",
-            },*/
       {
-        id: 4,
+        id: 5,
         img: "./assets/alpine-pages.png",
         imgAlt: "alpine pages",
         title: "AlpineJS Pages",
@@ -44,7 +44,7 @@ document.addEventListener("alpine:init", () => {
         body: "AlpineJS Pages is a tiny plugin for AlpineJS designed to bring fully reactive html and scoped css into AlpineJS data objects. It effectively allows for templating without extra html files as well as a better foundation for bringing in client side SPA routing."
       },
       {
-        id: 5,
+        id: 6,
         img: "./assets/landelver.png",
         imgAlt: "landelver",
         title: "LANdelver",
