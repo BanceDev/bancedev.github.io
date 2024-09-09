@@ -55,20 +55,27 @@ document.addEventListener("alpine:init", () => {
     work: [
       {
         id: 1,
+        img: "./assets/senselab.png",
+        imgAlt: "osu sense lab",
+        title: "OSU SENSE Lab",
+        body: "Worked as an undergradute researcher to program firmware for wearable medical devices in C targeting the nRF5340 RTOS.",
+      },
+      {
+        id: 2,
         img: "./assets/enable.jpg",
         imgAlt: "enable injections",
         title: "Enable Injections",
         body: "Aided in product development of vial transfer system through design, implementation, and data analysis of product validation tests. Developed manufacturing and mechanical design skills.",
       },
       {
-        id: 2,
+        id: 3,
         img: "./assets/osueed.jpg",
         imgAlt: "osu engineering education department",
         title: "OSU Engineering Education Department",
         body: "Supported first year students in machining robots for engineering courses. Assisted departure from an old proprietary microcontroller to a new arduino based system by porting firmware libraries.",
       },
       {
-        id: 3,
+        id: 4,
         img: "./assets/letsstartcoding.png",
         imgAlt: "lets start coding",
         title: "Let's Start Coding",
