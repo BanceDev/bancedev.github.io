@@ -58,7 +58,7 @@ document.addEventListener("alpine:init", () => {
         img: "./assets/senselab.png",
         imgAlt: "osu sense lab",
         title: "OSU SENSE Lab",
-        body: "Worked as an undergradute researcher to program firmware for wearable medical devices in C targeting the nRF5340 RTOS.",
+        body: "Worked as an undergradute researcher to program firmware for wearable medical devices in C targeting the nRF5340 RTOS. Assisted in development of microwave based imaging technology that leverages machine learning.",
       },
       {
         id: 2,
