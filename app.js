@@ -17,7 +17,7 @@ document.addEventListener("alpine:init", () => {
         imgAlt: "quake prism",
         title: "Quake Prism",
         link: "https://github.com/BanceDev/QuakePrism",
-        body: "Quake Prism is an open source game engine editor for iD Software's Quake engine. Solo devloped using OpenGL and C++; this tool is an all in one suite for developers to make mods and games. Featuring texture and model tools along with the first ever real time linter for the QuakeC programming language.",
+        body: "Quake Prism is an open source game engine editor for iD Software's Quake engine. Solo developed using OpenGL and C++; this tool is an all in one suite for developers to make mods and games. Featuring texture and model tools along with the first ever real time linter for the QuakeC programming language.",
       },
       {
         id: 3,
@@ -49,7 +49,7 @@ document.addEventListener("alpine:init", () => {
         imgAlt: "landelver",
         title: "LANdelver",
         link: "https://github.com/LANdelver/landelver",
-        body: "LANdelver is a virtual tabletop for the in person Dungeons & Dragons expereince. Designed to enhance the possibilities of using a screen table with a fully custom Lua to C API for scripting enemy AI along with an intuitive web interface for players to connect from."
+        body: "LANdelver is a virtual tabletop for the in person Dungeons & Dragons experience. Designed to enhance the possibilities of using a screen table with a fully custom Lua to C API for scripting enemy AI along with an intuitive web interface for players to connect from."
       }
     ],
     work: [
@@ -58,7 +58,7 @@ document.addEventListener("alpine:init", () => {
         img: "./assets/senselab.png",
         imgAlt: "osu sense lab",
         title: "OSU SENSE Lab",
-        body: "Worked as an undergradute researcher to program firmware for wearable medical devices in C targeting the nRF5340 RTOS. Assisted in development of microwave based imaging technology that leverages machine learning.",
+        body: "Worked as an undergraduate researcher to program firmware for wearable medical devices in C targeting the nRF5340 RTOS. Assisted in development of microwave based imaging technology that leverages machine learning.",
       },
       {
         id: 2,
