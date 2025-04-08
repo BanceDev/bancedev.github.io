@@ -689,6 +689,10 @@ video {
   cursor: pointer;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -871,6 +875,14 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.marker\:text-red-500 *::marker {
+  color: rgb(239 68 68 );
+}
+
+.marker\:text-red-500::marker {
+  color: rgb(239 68 68 );
 }
 
 .hover\:opacity-60:hover {
