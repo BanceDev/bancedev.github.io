@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lance Borden | Blog</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body id="home" x-data="portfolio" class="bg-black font-body">
+    <div class="sticky top-0 bg-black">
+      <header class="max-w-4xl mx-auto py-2 lg:px-4">
+        <nav class="flex justify-between items-center text-white px-4 lg:px-0">
+          <h2 class="font-heading" x-text="title"></h2>
+          <button  @click="handleNav" class="text-white w-10 h-10 relative focus:outline-none bg-black inline-block lg:hidden">
+            <div class="block w-5 absolute left-1/2 top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
+                <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out" :class="{'rotate-45': showNav,' -translate-y-1.5': !showNav }"></span>
+                <span aria-hidden="true" class="block absolute  h-0.5 w-5 bg-current   transform transition duration-500 ease-in-out" :class="{'opacity-0': showNav } "></span>
+                <span aria-hidden="true" class="block absolute  h-0.5 w-5 bg-current transform  transition duration-500 ease-in-out" :class="{'-rotate-45': showNav, ' translate-y-1.5': !showNav}"></span>
+            </div>
+          </button>
+            <ul
+              id="menu"
+              :class="showNav ? 'flex' : 'hidden'"
+              class="text-3xl lg:text-base lg:flex lg:static fixed inset-0 bg-black lg:bg-transparent top-14 lg:top-0 px-8 py-2 lg:p-0 text-gray-400 flex-col lg:flex-row justify-center"
+            >
+            <li class="px-3 cursor-pointer group"><a @click="handleNav" href="/#home">
+              Home
+              <div class="bg-red-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </a></li>
+            <li class="px-3 cursor-pointer group"><a @click="handleNav" href="/#portfolio">
+              Portfolio
+              <div class="bg-red-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </a></li>
+            <li class="px-3 cursor-pointer group"><a @click="handleNav" href="/#work">
+              Work
+              <div class="bg-red-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </a></li>
+            <li class="px-3 cursor-pointer group"><a @click="handleNav" href="../blog.html">
+              Blog
+              <div class="bg-red-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </a></li>
+          </ul>
+          <button
+            class="hidden lg:inline-block bg-red-500 text-black hover:opacity-60 font-heading px-6 py-4"
+            onclick="window.location.href='mailto:lanceaborden@protonmail.com'"
+          >
+            Contact
+          </button>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <section class="max-w-4xl mx-auto pt-8 px-4 pb-14">
+        <div class="text-gray-400 max-w-2xl">
+          <h1
+            class="text-2xl text-white font-heading lg:leading-normal"
+          >
+            Real Programmers Don't Use TypeScript
+          </h1>
+          <p class="pt-4 pb-4">
+            2025-04-08 :: Lance Borden
+          </p>
+          <p class = "pt-4 pb-4">
+            Back in the good old days - the "Golden Era" of software (90s) - it was a trivial task to seperate the men from the boys (sometimes called "Real Programmers" and "Soy Devs" in modern literature). During this period it was clear the Real Programmers were the ones who understood computer programming, and the Soy Devs were the ones who didn't. A real programmer would put "for(;;)" in main to confuse the Soy Devs expecting a "while(true)".
+          </p>
+          <p class = "pt-4 pb-4">
+            Unfortunately times change. In the year of 2025 we are faced with the reality that every device is running corporate spyware, any device less trivial than a light bulb probably has a microcomputer on it, and high schoolers can "blow Real Programmers out of the water" with the power of vscode and chatGPT. The Real Programmer is in danger of going extinct, of being replaced with 15 year olds with an API key.
+          </p>
+          <p class = "pt-4 pb-4">
+            This leads to an obvious need to point out the differences between these junior vibe coders and a Real Programmer. If this difference is make evident, it will give these kids something to actually aspire to. (Assuming they are capable of having a complete thought without an LLM in a few years). It will also help explain to the employers of Real Programmers why it would be a grave mistake to replace Real Programmers with these 15 year old vibe coders.
+          </p>
+          <p class = "pt-4 pb-4">
+            The easiest way to identify a Real Programmer is by the programming language they use. While the language of choice for real programmers has changed it is still the tell-tale sign of who the Real Programmers are. In this decade Real Programmers use C. Soy Devs use TypeScript. One of the most well known quotes about TypeScript goes, "TS is a comfort blanket for backend developers." One can tell immediately this comment was made by a Soy Dev. Real Programmers don't need a comfort blanket. They sleep on a bed of nails comprised of manually managed lifetimes and heap allocated memory. The Real Programmer doesn't need a "programming language" that is a cleverly disguised linter created by a company that hasn't made a good operating system for 20 years. The Real Programmer is perfectly happy with neovim, the GCC, and a cold Monster.
+          </p>
+          <ul class = "pt-4 pb-4">
+            <li>Real Programmers have two data structures. Arrays and malloc.</li>
+            <li>Real Programmers do string manipulation with a char *.</li>
+            <li>Real Programmers do AI programs in C.</li>
+          </ul>
+          <p class = "pt-4 pb-4">
+            If it can't be done in C, they do it in Assembly. If it can't be done in assembly, it isn't worth doing.
+          </p>
+          <p class = "pt-4 pb-4">
+            The tech bros in computer science have recently gotten into the "vibe coding" rut over the past few years. They claim that developers will soon be obsolete as soon as AI is capable enough to replace them. They seem to struggle to accurately tell when this moment will occur, but it may have something to do with the success of AI being dependent on code written by Real Programmers. Real Programmers don't use LLMs, except to bully them for being bad at writing code. Some quick observations on how the Real Programmer codes today:
+          </p>
+          <ul class = "pt-4 pb-4">
+            <li>Real Programmers use the man pages.</li>
+            <li>Real Programmers can keep track of countless lifetimes at once.</li>
+            <li>Real Programmers aren't afraid to cast to void *.</li>
+            <li>Real Programmers don't need comments. Comments are a skill issue.</li>
+          </ul>
+          <p class = "pt-4 pb-4">
+            How does the Real Programmer get all of this done? What operating system do they use? The Real Programmer despises Windows. The Soy Dev uses Windows because it "just works" unless the Soy Dev manged to make a decent income writing overglorified config files for web pages, and then they use MacOS. Not because it is Unix based, just because they want to flex on the plebians at starbucks. You can tell they aren't a Real Programmer, because a real programmer cannot be found in a public space. So quite obviously the Real Programmer uses Linux. More than likely Debian since they don't have time for Arch or Gentoo to have a fit.
+          </p>
+          <p class = "pt-4 pb-4">
+            What tools does the real programmer use? The real programmer doesn't ever leave the terminal. They edit text in neovim or emacs without an lsp. (To save on RAM usage of course) The Real Programmer can solve all bugs with gdb or Valgrind. The Real Programmer browses the web text only since they refuse to let JavaScript run on their machine. The Real Programmer also always has a decompiler or binary editor on hand. They can fix bugs when the source code is no longer available. No manager would send anything less than a Real Programmer to do the job - a Soy Dev wouldn't even know where to start. This is "job security" that AI cannot contest.
+          </p>
+          <p class = "pt-4 pb-4">
+            You may now be wondering, what sort of jobs do Real Programmers do. In the modern day it has become harder to find them in the corporate world since they can't imagine using a language that runs in an interpreter or a virtual machine. However, the real programmer is either working for the DoD, rotting as an academic at a university, or maintaining open source technology that the entire tech industry can't live without.
+          </p>
+          <p class = "pt-4 pb-4">
+            In their leasure time the Real Programmer is not much different. They are still astounded that they are paid to do they work they would be doing for fun anyways. On the rare occasion that the Real Programmer leaves their office or basement to breathe fresh air they can still be identified quite easily in the wild if you know how to look.
+          </p>
+          <ul class = "pt-4 pb-4">
+            <li>At a party, the Real Programmers are the ones in the corner talking about operating systems, compilers, or weighing the differences between C and Rust.</li>
+            <li>At a football game, the Real Programmer is comparing the plays to cellular automata.</li>
+            <li>At the beach, the Real Programmer designs a CPU block diagram in the sand.</li>
+            <li>At a funeral, the Real Programmer is the one saying "Poor guy, he almost solved the segmentation fault before the adderall caught up with him."</li>
+          </ul>
+          <p class = "pt-4 pb-4">
+            What of the work environment of the Real Programmer? This is important for the managers hoping to ship products without AI generated system vulnerabilities. Considering that Real Programmers are now on the endangered species list it is best to give them a habitat in which they can thrive.
+          </p>
+          <p class = "pt-4 pb-4">
+            The real programmer needs at minimum a high powered PC with three monitors. Two horizontal and one vertical. Surrounding these monitors are:
+          </p>
+          <ul class = "pt-4 pb-4">
+            <li>Cans of Monster Zero White Ultra.</li>
+            <li>Empty bags of Cool Ranch Doritos.</li>
+            <li>A handful of obscure programming textbooks.</li>
+            <li>A photo of Linus Torvalds that they gaze longingly at in the moments they take their eyes off the screen.</li>
+            <li>A poorly hidden anime body pillow or collection of Hatsune Miku figurines.</li>
+          </ul>
+          <p class = "pt-4 pb-4">
+            Whith all this knowledge on the dying species of Real Programmers what are we to do? It is a matter of concern that the current generation of programmers are not being raised properly like their elders. Many can't event write code for their Microsoft JS linter without an LLM, much less assemble x86 opcodes in their mind without a calculator. Worst of all these "computer scientists" are being handed degrees without even learning computer architecture! Are we destined to be an industry of Microsoft parasites?
+          </p>
+          <p class = "pt-4 pb-4">
+            Even if they Real Programmer is dying, those who choose to follow in the footsteps of their elders will have a bright future. Despite the efforts of the Soy Devs the world will always need people who can raw dog CPU registers. As long as there are poorly-defined goals, standup meetings, and unrealistic sprint driven schedules, there will be Real Programmers jumping in to solve the problems nobody else wants to solve, and leaving the documentation for another day. Long live the Real Programmer!
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-zinc-800">
+      <div
+        class="max-w-4xl mx-auto px-4 py-8 flex justify-between items-center"
+      >
+        <h2 class="font-heading text-white" x-text="title"></h2>
+        <div>
+          <ul class="flex">
+            <li class="pr-1">
+              <a href="https://github.com/BanceDev">
+                <img src="../assets/social/github.svg" alt="github" />
+              </a>
+            </li>
+            <li class="px-1">
+              <a href="https://www.linkedin.com/in/lance-borden/">
+                <img src="../assets/social/linkedin.svg" alt="linkedin" />
+              </a>
+            </li>
+            <li class="pl-1">
+              <a href="https://mastodon.social/@bancedev">
+                <img src="../assets/social/mastodon.svg" alt="mastodon" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="../app.js"></script>
+  </body>
+</html>
+
+
