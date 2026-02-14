@@ -82,7 +82,7 @@
           >
             Portfolio
           </h1>
-        <div class="grid lg:grid-cols-2 gap-16">
+        <div class="grid lg:grid-cols-3 gap-16">
           <template x-for="project in projects">
             <div class="text-gray-400" :key="project.id">
               <img :src="project.img" :alt="project.imgAlt" />
@@ -104,7 +104,7 @@
           >
             Work
           </h1>
-          <div class="grid lg:grid-cols-2 gap-16">
+          <div class="grid lg:grid-cols-3 gap-16">
             <template x-for="project in work">
               <div class="text-gray-400" :key="project.id">
                 <img :src="project.img" :alt="project.imgAlt" />
