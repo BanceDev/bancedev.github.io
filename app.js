@@ -5,6 +5,22 @@ document.addEventListener("alpine:init", () => {
     projects: [
       {
         id: 1,
+        img: "./assets/mocap.png",
+        imgAlt: "swing metrics",
+        title: "SwingMetrics",
+        link: "",
+        body: "SwingMetrics is my senior capstone project done in conjunction with the AIMS Lab at The Ohio State University. It is a desktop application that performs motion capture on baseball swings using OpenCV and Mediapipe to give critical insights on althlete performance to aid with training.",
+      },
+      {
+        id: 2,
+        img: "./assets/openfort.png",
+        imgAlt: "open fortress",
+        title: "Open Fortress",
+        link: "https://openfortress.fun/",
+        body: "Open Fortress is a community mod project for Valve's Team Fortress 2 with a focus on bringing back a classic deathmatch game experience for a casual audience. I focus on developing gameplay features and work closely with the game designers to bring the project vision to life.",
+      },
+      {
+        id: 3,
         img: "./assets/frostty.png",
         imgAlt: "frostty",
         title: "Frostty",
@@ -12,7 +28,7 @@ document.addEventListener("alpine:init", () => {
         body: "Frostty is a modern terminal emulator with the feel of a dynamic wm; focused on prividing a highly customizable, smooth experience that comes with simple defaults and many opt-in features. Built using Rust with the Iced GUI framework.",
       },
       {
-        id: 2,
+        id: 4,
         img: "./assets/lush.png",
         imgAlt: "lunar shell",
         title: "Lunar Shell",
@@ -20,7 +36,7 @@ document.addEventListener("alpine:init", () => {
         body: "Lunar Shell (lush) is an open-source, modern Unix shell built from scratch in C. It offers a lightweight, high-performance experience, allowing users to fully customize their shell environment and write shell scripts using Lua through an intuitive and efficient API.",
       },
       {
-        id: 3,
+        id: 5,
         img: "./assets/quakeprism.png",
         imgAlt: "quake prism",
         title: "Quake Prism",
@@ -28,7 +44,7 @@ document.addEventListener("alpine:init", () => {
         body: "Quake Prism is an open source game engine editor for iD Software's Quake engine. Solo developed using OpenGL and C++; this tool is an all in one suite for developers to make mods and games. Featuring texture and model tools along with the first ever real time linter for the QuakeC programming language.",
       },
       {
-        id: 4,
+        id: 6,
         img: "./assets/neocities.png",
         imgAlt: "neocities",
         title: "Neocities",
@@ -36,7 +52,7 @@ document.addEventListener("alpine:init", () => {
         body: "Neocities is an open source successor to the website platform Geocities. Contributed to the development of this software through improvements to code editor and development tools.",
       },
       {
-        id: 5,
+        id: 7,
         img: "./assets/xed.png",
         imgAlt: "linux mint xed",
         title: "Linux Mint Xed",
@@ -44,7 +60,7 @@ document.addEventListener("alpine:init", () => {
         body: "Xed is an open source text editor written in C and part of the Linux Mint xapps software suite. Contributed to the development of this software mostly through the fixing of bugs and memory/performance issues as a way to improve at C.",
       },
       {
-        id: 6,
+        id: 8,
         img: "./assets/lunabotics.jpg",
         imgAlt: "lunabotics",
         title: "Lunabotics",
@@ -52,7 +68,7 @@ document.addEventListener("alpine:init", () => {
         body: "Developed the driver station and networked controls for the rookie year OSU Lunabotics robot. We received the Nova Award for Stellar Systems Engineering Performance by a First Year Team.",
       },
       {
-        id: 7,
+        id: 9,
         img: "./assets/alpine-pages.png",
         imgAlt: "alpine pages",
         title: "AlpineJS Pages",
@@ -66,7 +82,7 @@ document.addEventListener("alpine:init", () => {
         img: "./assets/cal.png",
         imgAlt: "cal analytics",
         title: "CAL Analytics",
-        body: "Worked as a software engineer on improving features of flight simulation tooling for computer vision data generation. Developed web service for A* based path planning for first responder drones.",
+        body: "Working as a software engineer intern on improving features of flight simulation tooling for computer vision data generation. Developed web service for A* based path planning for first responder drones. Created method for representing population density data in a queryable format.",
       },
       {
         id: 2,
